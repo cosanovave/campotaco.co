@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campo Taco Co. | Fresh Mexican Restaurant in Raleigh, NC</title>
+  <meta name="description" content="Fresh, vibrant Mexican food & drinks inspired by the land. Tacos, cocktails & good vibes at 1001 S Saunders St, Raleigh NC 27603. Open daily. Order online!" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.campotaco.co/" />
+  <meta name="author" content="Campo Taco Co." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:url" content="https://www.campotaco.co/" />
+  <meta property="og:title" content="Campo Taco Co. | Fresh Mexican Restaurant in Raleigh, NC" />
+  <meta property="og:description" content="Fresh, vibrant Mexican food & drinks inspired by the land. Tacos, cocktails & good vibes at 1001 S Saunders St, Raleigh, NC. Order online!" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=1200&h=630&q=80" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Campo Taco Co." />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Campo Taco Co. | Fresh Mexican Food in Raleigh, NC" />
+  <meta name="twitter:description" content="Fresh, vibrant Mexican food & drinks inspired by the land. Order online — 1001 S Saunders St, Raleigh NC." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=1200&h=630&q=80" />
+
+  <!-- Schema.org Restaurant JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Campo Taco Co.",
+    "url": "https://www.campotaco.co",
+    "telephone": "+18135216686",
+    "email": "info@campotaco.co",
+    "description": "Fresh, vibrant Mexican food & drinks inspired by the land. Tacos, cocktails & good vibes in Raleigh, NC.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1001 S Saunders St",
+      "addressLocality": "Raleigh",
+      "addressRegion": "NC",
+      "postalCode": "27603",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.7721,
+      "longitude": -78.6447
+    },
+    "servesCuisine": "Mexican",
+    "priceRange": "$$",
+    "menu": "https://www.campotaco.co/menus",
+    "hasMap": "https://maps.google.com/?q=1001+S+Saunders+St+Raleigh+NC+27603",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"],
+        "opens": "11:00",
+        "closes": "22:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "11:00",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "11:30",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "11:30",
+        "closes": "21:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61575690488641",
+      "https://www.instagram.com/campotaco.co"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* ===== RESET & VARIABLES ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary:        #C2572B;
+      --primary-dark:   #9E3D15;
+      --primary-light:  #E07C52;
+      --secondary:      #2C5F2E;
+      --secondary-light:#4A8F4D;
+      --accent:         #E8961E;
+      --cream:          #FDF3E7;
+      --cream-dark:     #F0E0C4;
+      --dark:           #2C1810;
+      --text:           #3D2214;
+      --muted:          #7A5C4A;
+      --white:          #FFFFFF;
+      --gradient:       linear-gradient(135deg, #9E3D15 0%, #C2572B 100%);
+      --gradient-hero:  linear-gradient(160deg, rgba(44,24,16,0.93) 0%, rgba(107,47,16,0.82) 45%, rgba(44,95,46,0.65) 100%);
+      --shadow:         0 8px 32px rgba(194,87,43,0.14);
+      --shadow-dark:    0 20px 60px rgba(44,24,16,0.22);
+      --radius:         16px;
+      --radius-sm:      8px;
+      --transition:     0.45s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body { font-family: 'Poppins', sans-serif; color: var(--text); background: var(--cream); overflow-x: hidden; }
+    img  { max-width: 100%; display: block; }
+    a    { text-decoration: none; color: inherit; }
+    ul   { list-style: none; }
+    address { font-style: normal; }
+
+    /* ===== SCROLL REVEAL ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(48px);
+      transition: opacity 0.75s ease, transform 0.75s ease;
+    }
+    .reveal.from-left  { transform: translateX(-64px); }
+    .reveal.from-right { transform: translateX(64px); }
+    .reveal.scale-in   { transform: scale(0.9); }
+    .reveal.visible    { opacity: 1; transform: translate(0) scale(1); }
+    .reveal.delay-1    { transition-delay: 0.10s; }
+    .reveal.delay-2    { transition-delay: 0.20s; }
+    .reveal.delay-3    { transition-delay: 0.30s; }
+    .reveal.delay-4    { transition-delay: 0.40s; }
+    .reveal.delay-5    { transition-delay: 0.50s; }
+
+    /* ===== UTILITIES ===== */
+    .container       { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
+    .section-padding { padding: 100px 0; }
+    .section-label   { display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.18em; margin-bottom: 14px; }
+    .section-heading { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: var(--dark); line-height: 1.2; margin-bottom: 16px; }
+    .section-subtext { font-size: 1.05rem; color: var(--muted); max-width: 560px; line-height: 1.75; }
+    .section-header  { text-align: center; margin-bottom: 56px; }
+    .section-header .section-subtext { margin: 0 auto; }
+
+    /* ===== BUTTONS ===== */
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: var(--gradient); color: var(--white);
+      padding: 14px 32px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem; cursor: pointer;
+      box-shadow: 0 6px 24px rgba(194,87,43,0.35);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(194,87,43,0.5); }
+
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: rgba(255,255,255,0.13); color: var(--white);
+      padding: 14px 32px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem;
+      border: 2px solid rgba(255,255,255,0.5);
+      backdrop-filter: blur(8px);
+      transition: background 0.3s, border-color 0.3s;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.23); border-color: rgba(255,255,255,0.85); }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: transparent; color: var(--primary);
+      padding: 13px 30px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem;
+      border: 2px solid var(--primary);
+      transition: background 0.3s, color 0.3s;
+    }
+    .btn-outline:hover { background: var(--primary); color: var(--white); }
+
+    .btn-instagram {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+      color: var(--white); padding: 15px 38px; border-radius: 50px;
+      font-weight: 600; font-size: 1rem;
+      box-shadow: 0 6px 24px rgba(220,39,67,0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn-instagram:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(220,39,67,0.45); }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 20px 5%;
+      display: flex; align-items: center; justify-content: space-between;
+      transition: var(--transition);
+    }
+    .navbar.scrolled {
+      background: rgba(253,243,231,0.97);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      padding: 12px 5%;
+      box-shadow: 0 4px 24px rgba(194,87,43,0.10);
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem; font-weight: 800;
+      color: var(--white); letter-spacing: -0.02em;
+      transition: color var(--transition);
+    }
+    .navbar.scrolled .nav-logo { color: var(--dark); }
+
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a {
+      font-size: 0.88rem; font-weight: 500;
+      color: rgba(255,255,255,0.9);
+      letter-spacing: 0.03em;
+      position: relative; transition: color 0.3s;
+    }
+    .navbar.scrolled .nav-links a { color: var(--text); }
+    .nav-links a:not(.nav-cta)::after {
+      content: ''; position: absolute; bottom: -4px; left: 0;
+      width: 0; height: 2px; background: var(--primary);
+      transition: width 0.3s;
+    }
+    .nav-links a:not(.nav-cta):hover::after { width: 100%; }
+    .nav-cta {
+      background: var(--gradient) !important;
+      color: var(--white) !important;
+      padding: 10px 22px !important; border-radius: 50px !important;
+      font-weight: 600 !important;
+      box-shadow: 0 4px 16px rgba(194,87,43,0.35);
+      transition: transform 0.3s, box-shadow 0.3s !important;
+    }
+    .nav-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(194,87,43,0.5) !important; }
+    .nav-cta::after { display: none !important; }
+
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; z-index: 1010; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: var(--transition); }
+    .navbar.scrolled .hamburger span { background: var(--dark); }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+
+    .mobile-menu {
+      position: fixed; top: 0; right: 0; bottom: 0; width: min(340px, 100%);
+      background: var(--cream); z-index: 1005;
+      padding: 90px 32px 40px;
+      display: flex; flex-direction: column; gap: 0;
+      transform: translateX(100%);
+      transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+      box-shadow: -8px 0 40px rgba(44,24,16,0.18);
+    }
+    .mobile-menu.open { transform: translateX(0); }
+    .mobile-overlay {
+      position: fixed; inset: 0; background: rgba(44,24,16,0.4); z-index: 1004;
+      opacity: 0; pointer-events: none; transition: opacity 0.4s;
+    }
+    .mobile-overlay.open { opacity: 1; pointer-events: auto; }
+    .mobile-menu a {
+      padding: 18px 0; font-size: 1.05rem; font-weight: 600;
+      color: var(--dark); border-bottom: 1px solid var(--cream-dark);
+      transition: color 0.3s;
+    }
+    .mobile-menu a:hover { color: var(--primary); }
+    .mobile-menu a.mobile-cta { margin-top: 28px; text-align: center; border-bottom: none; }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative; min-height: 100vh;
+      display: flex; align-items: center; overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute; inset: 0; z-index: 0;
+      background:
+        var(--gradient-hero),
+        url('https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=1920&q=80')
+        center/cover no-repeat;
+    }
+    /* subtle animated grain texture */
+    .hero-bg::after {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 75% 40%, rgba(232,150,30,0.18) 0%, transparent 55%),
+                  radial-gradient(ellipse at 20% 75%, rgba(44,95,46,0.22) 0%, transparent 50%);
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      padding: 140px 5% 90px; max-width: 800px;
+    }
+    .hero-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3.2rem, 8vw, 7rem);
+      font-weight: 800; color: var(--white);
+      line-height: 1; margin-bottom: 16px;
+      text-shadow: 0 4px 40px rgba(0,0,0,0.5);
+      letter-spacing: -0.02em;
+    }
+    .hero-brand span { color: var(--accent); }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.95);
+      padding: 7px 18px; border-radius: 50px;
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em;
+      border: 1px solid rgba(255,255,255,0.28);
+      backdrop-filter: blur(8px); margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.6rem, 6vw, 4.8rem);
+      font-weight: 800; color: var(--white);
+      line-height: 1.1; margin-bottom: 22px;
+      text-shadow: 0 4px 32px rgba(0,0,0,0.4);
+    }
+    .hero h1 em { font-style: italic; color: var(--accent); }
+    .hero-tagline {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: rgba(255,255,255,0.82); line-height: 1.75;
+      margin-bottom: 36px; max-width: 540px;
+    }
+    .hero-ctas { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 44px; }
+    .hero-info {
+      display: flex; gap: 28px; flex-wrap: wrap;
+      font-size: 0.83rem; color: rgba(255,255,255,0.65);
+    }
+    .hero-info span { display: flex; align-items: center; gap: 7px; }
+
+    .scroll-indicator {
+      position: absolute; bottom: 36px; left: 50%;
+      transform: translateX(-50%); z-index: 2;
+    }
+    .scroll-arrow {
+      width: 26px; height: 26px;
+      border-right: 2px solid rgba(255,255,255,0.55);
+      border-bottom: 2px solid rgba(255,255,255,0.55);
+      transform: rotate(45deg);
+      animation: bounce 2.2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: rotate(45deg) translateY(0); }
+      50%       { transform: rotate(45deg) translateY(7px); }
+    }
+
+    /* ===== ABOUT ===== */
+    .about { background: var(--white); }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center;
+    }
+    .about-image {
+      position: relative; border-radius: var(--radius);
+      overflow: hidden; aspect-ratio: 4/5;
+      box-shadow: var(--shadow-dark);
+    }
+    .about-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; }
+    .about-image:hover img { transform: scale(1.04); }
+    .about-image::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 55%, rgba(44,24,16,0.35));
+      pointer-events: none;
+    }
+    .about-badge {
+      position: absolute; bottom: 24px; left: 24px; z-index: 1;
+      background: var(--primary); color: var(--white);
+      padding: 10px 22px; border-radius: var(--radius-sm);
+      font-weight: 700; font-size: 0.88rem; letter-spacing: 0.05em;
+    }
+    .about-text p {
+      font-size: 1rem; color: var(--muted); line-height: 1.82;
+      margin-bottom: 18px;
+    }
+    .about-features {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+      margin: 28px 0 32px;
+    }
+    .feature {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 0.88rem; font-weight: 600; color: var(--dark);
+    }
+    .feature i { color: var(--primary); font-size: 1rem; width: 18px; }
+
+    /* ===== MENU ===== */
+    .menu-section { background: var(--dark); }
+    .menu-section .section-label { color: var(--accent); }
+    .menu-section .section-heading { color: var(--white); }
+    .menu-section .section-subtext { color: rgba(255,255,255,0.55); }
+
+    .menu-tabs {
+      display: flex; gap: 10px; justify-content: center;
+      margin-bottom: 48px; flex-wrap: wrap;
+    }
+    .tab {
+      padding: 10px 28px; border-radius: 50px;
+      border: 2px solid rgba(255,255,255,0.18);
+      background: transparent; color: rgba(255,255,255,0.65);
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.88rem; font-weight: 600; cursor: pointer;
+      transition: var(--transition);
+    }
+    .tab.active, .tab:hover {
+      background: var(--primary); border-color: var(--primary);
+      color: var(--white);
+    }
+
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+
+    .menu-items-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 20px; margin-bottom: 52px;
+    }
+    .menu-item {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius); padding: 26px;
+      transition: background var(--transition), transform var(--transition);
+    }
+    .menu-item:hover { background: rgba(255,255,255,0.11); transform: translateY(-5px); }
+    .menu-item-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 9px; }
+    .menu-item-name  { font-size: 1rem; font-weight: 700; color: var(--white); line-height: 1.3; }
+    .menu-item-price { font-size: 0.88rem; font-weight: 700; color: var(--accent); white-space: nowrap; margin-left: 12px; }
+    .menu-item-desc  { font-size: 0.84rem; color: rgba(255,255,255,0.52); line-height: 1.65; }
+    .menu-item-tag   { display: inline-block; margin-top: 12px; padding: 3px 11px; border-radius: 20px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+    .tag-popular { background: rgba(232,150,30,0.18); color: #E8961E; border: 1px solid rgba(232,150,30,0.3); }
+    .tag-new     { background: rgba(74,143,77,0.18); color: #52B788; border: 1px solid rgba(74,143,77,0.3); }
+    .tag-spicy   { background: rgba(194,87,43,0.2);  color: var(--primary-light); border: 1px solid rgba(194,87,43,0.35); }
+
+    .menu-availability { text-align: center; font-size: 0.82rem; font-weight: 600; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 28px; }
+    .menu-category-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--accent); padding: 12px 0 10px; margin-top: 8px; border-bottom: 1px solid rgba(255,255,255,0.12); grid-column: 1 / -1; letter-spacing: 0.04em; }
+    .menu-category-note { font-size: 0.78rem; color: rgba(255,255,255,0.38); line-height: 1.6; grid-column: 1 / -1; margin: -8px 0 6px; }
+    .menu-build-card { grid-column: 1 / -1; background: rgba(232,150,30,0.07); border: 1px solid rgba(232,150,30,0.18); border-radius: var(--radius); padding: 22px 24px; }
+    .menu-build-card h4 { font-size: 0.74rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 8px; }
+    .menu-build-card p { font-size: 0.83rem; color: rgba(255,255,255,0.48); line-height: 1.65; }
+    .menu-build-options { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+    .menu-build-opt { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 4px 12px; font-size: 0.76rem; color: rgba(255,255,255,0.58); }
+    .menu-build-opt span { color: var(--accent); font-weight: 600; margin-left: 3px; }
+
+    .menu-note { text-align: center; font-size: 0.82rem; color: rgba(255,255,255,0.35); margin-bottom: 32px; }
+
+    .menu-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .menu-section .btn-outline { color: rgba(255,255,255,0.78); border-color: rgba(255,255,255,0.28); }
+    .menu-section .btn-outline:hover { background: rgba(255,255,255,0.1); color: var(--white); border-color: rgba(255,255,255,0.6); }
+
+    /* ===== WHY CAMPO ===== */
+    .why-section { background: var(--cream); }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 24px; }
+    .why-card {
+      background: var(--white); border-radius: var(--radius);
+      padding: 36px 28px; text-align: center;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .why-card:hover { transform: translateY(-7px); box-shadow: var(--shadow-dark); }
+    .why-icon { font-size: 2.5rem; margin-bottom: 18px; }
+    .why-card h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--dark); margin-bottom: 10px; }
+    .why-card p  { font-size: 0.88rem; color: var(--muted); line-height: 1.75; }
+
+    /* ===== CATERING ===== */
+    .catering-section { background: var(--dark); overflow: hidden; position: relative; }
+    .catering-section::before {
+      content: ''; position: absolute; inset: 0;
+      background: url('https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1400&q=60') center/cover no-repeat;
+      opacity: 0.18;
+    }
+    .catering-inner {
+      position: relative; z-index: 1;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;
+    }
+    .catering-badge {
+      display: inline-block; background: var(--accent); color: var(--white);
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+      padding: 5px 14px; border-radius: 20px; margin-bottom: 18px;
+    }
+    .catering-title {
+      font-family: 'Playfair Display', serif; font-size: clamp(2.2rem, 4vw, 3.4rem);
+      font-weight: 800; color: var(--white); line-height: 1.15; margin-bottom: 20px;
+    }
+    .catering-title span { color: var(--accent); }
+    .catering-desc { color: rgba(255,255,255,0.72); font-size: 1.05rem; line-height: 1.75; margin-bottom: 32px; }
+    .catering-features { list-style: none; padding: 0; margin: 0 0 36px; display: flex; flex-direction: column; gap: 12px; }
+    .catering-features li { display: flex; align-items: center; gap: 12px; color: rgba(255,255,255,0.85); font-size: 0.95rem; }
+    .catering-features li i { color: var(--accent); font-size: 1rem; flex-shrink: 0; }
+    .catering-cta { display: flex; gap: 16px; flex-wrap: wrap; }
+    .catering-visual { position: relative; }
+    .catering-card-stack { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .catering-card {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius); padding: 28px 22px; text-align: center;
+      transition: var(--transition);
+    }
+    .catering-card:hover { background: rgba(194,87,43,0.2); border-color: var(--primary); transform: translateY(-4px); }
+    .catering-card i { font-size: 2rem; color: var(--accent); margin-bottom: 12px; display: block; }
+    .catering-card h4 { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--white); margin-bottom: 8px; }
+    .catering-card p { font-size: 0.82rem; color: rgba(255,255,255,0.55); line-height: 1.5; margin: 0; }
+    .catering-card.wide { grid-column: 1 / -1; display: flex; align-items: center; gap: 20px; text-align: left; }
+    .catering-card.wide i { font-size: 1.6rem; flex-shrink: 0; margin-bottom: 0; }
+    .catering-card.wide div p { margin: 0; }
+
+    @media (max-width: 1024px) {
+      .catering-inner { grid-template-columns: 1fr; gap: 48px; }
+      .catering-visual { order: -1; }
+    }
+    @media (max-width: 540px) {
+      .catering-card-stack { grid-template-columns: 1fr; }
+      .catering-card.wide { grid-column: 1; }
+    }
+
+    /* ===== HOURS & LOCATION ===== */
+    .hours-section { background: var(--white); }
+    .hours-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+
+    .hours-card, .location-card {
+      background: var(--cream); border-radius: var(--radius);
+      padding: 52px 44px; box-shadow: var(--shadow);
+    }
+    .hours-card h2, .location-card h2 {
+      font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 800;
+      color: var(--dark); margin-bottom: 28px;
+    }
+    .hours-table { width: 100%; border-collapse: collapse; }
+    .hours-table td {
+      padding: 13px 0; font-size: 0.94rem;
+      border-bottom: 1px solid var(--cream-dark);
+      color: var(--text);
+    }
+    .hours-table td:last-child { text-align: right; font-weight: 700; color: var(--primary); }
+    .hours-table tr.weekend td { color: var(--secondary); }
+    .hours-table tr.weekend td:last-child { color: var(--secondary); }
+    .hours-table tr:last-child td { border-bottom: none; }
+
+    .location-card address p { font-size: 1.05rem; color: var(--dark); font-weight: 600; line-height: 1.65; margin-bottom: 22px; }
+    .contact-items { display: flex; flex-direction: column; gap: 13px; margin-bottom: 32px; }
+    .contact-item { display: flex; align-items: center; gap: 13px; font-size: 0.93rem; color: var(--muted); }
+    .contact-item i { color: var(--primary); width: 18px; text-align: center; }
+    .contact-item a { color: var(--text); font-weight: 500; transition: color 0.3s; }
+    .contact-item a:hover { color: var(--primary); }
+    .location-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+
+    /* ===== SOCIAL SECTION ===== */
+    .social-section {
+      background: linear-gradient(145deg, var(--dark) 0%, #3D1C02 100%);
+      text-align: center;
+    }
+    .social-content { max-width: 620px; margin: 0 auto; }
+    .social-icon {
+      font-size: 3.2rem; margin-bottom: 20px;
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .social-section h2 { font-family: 'Playfair Display', serif; font-size: clamp(2rem,4vw,2.8rem); font-weight: 800; color: var(--white); margin-bottom: 18px; }
+    .social-section p  { font-size: 1rem; color: rgba(255,255,255,0.6); line-height: 1.82; margin-bottom: 36px; }
+
+    /* ===== FOOTER ===== */
+    .footer { background: #180C06; padding: 80px 0 0; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr; gap: 48px; margin-bottom: 56px; }
+    .footer-logo { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; color: var(--white); margin-bottom: 14px; }
+    .footer-brand p { font-size: 0.88rem; color: rgba(255,255,255,0.45); line-height: 1.82; margin-bottom: 22px; }
+    .social-links { display: flex; gap: 12px; }
+    .social-links a {
+      width: 42px; height: 42px; border-radius: 50%;
+      background: rgba(255,255,255,0.07);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.6); font-size: 1rem;
+      transition: background 0.3s, color 0.3s, transform 0.3s;
+    }
+    .social-links a:hover { background: var(--primary); color: var(--white); transform: translateY(-3px); }
+    .footer h4 { font-size: 0.74rem; font-weight: 700; color: rgba(255,255,255,0.35); text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 22px; }
+    .footer ul li { margin-bottom: 11px; }
+    .footer ul a { font-size: 0.88rem; color: rgba(255,255,255,0.55); transition: color 0.3s; }
+    .footer ul a:hover { color: var(--primary-light); }
+    .footer-hours p,
+    .footer-contact p,
+    .footer-contact a { display: block; font-size: 0.88rem; color: rgba(255,255,255,0.55); line-height: 1.85; transition: color 0.3s; }
+    .footer-contact a:hover { color: var(--primary-light); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding: 24px 0;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .footer-bottom p, .footer-bottom a { font-size: 0.8rem; color: rgba(255,255,255,0.3); }
+    .footer-bottom a:hover { color: rgba(255,255,255,0.6); }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .about-grid  { grid-template-columns: 1fr; gap: 40px; }
+      .about-image { aspect-ratio: 16/9; }
+      .hours-grid  { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
+    }
+    @media (max-width: 768px) {
+      .nav-links        { display: none; }
+      .hamburger        { display: flex; }
+      .section-padding  { padding: 72px 0; }
+      .why-grid         { grid-template-columns: 1fr 1fr; }
+      .footer-grid      { grid-template-columns: 1fr 1fr; }
+      .hero-info        { flex-direction: column; gap: 10px; }
+    }
+    @media (max-width: 540px) {
+      .why-grid         { grid-template-columns: 1fr; }
+      .footer-grid      { grid-template-columns: 1fr; }
+      .hours-card,
+      .location-card    { padding: 36px 24px; }
+      .hero-ctas        { flex-direction: column; }
+      .menu-cta         { flex-direction: column; align-items: center; }
+      .location-ctas    { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar" id="navbar" aria-label="Main navigation">
+  <a href="#home" class="nav-logo">Campo Taco Co.</a>
+  <ul class="nav-links" role="list">
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#catering">Catering</a></li>
+    <li><a href="#hours">Hours</a></li>
+    <li><a href="tel:+18135216686"><i class="fas fa-phone" aria-hidden="true"></i> (813) 521-6686</a></li>
+    <li><a href="https://www.campotaco.co" class="nav-cta" target="_blank" rel="noopener">Order Online</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Open navigation menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<!-- Mobile Menu -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+  <a href="#about">Our Story</a>
+  <a href="#menu">Menu</a>
+  <a href="#catering">Catering</a>
+  <a href="#hours">Hours &amp; Location</a>
+  <a href="tel:+18135216686">+1 (813) 521-6686</a>
+  <a href="https://www.campotaco.co" class="mobile-cta btn-primary" target="_blank" rel="noopener">
+    <i class="fas fa-utensils" aria-hidden="true"></i> Order Online
+  </a>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section id="home" class="hero" aria-label="Campo Taco Co. — Fresh Mexican Restaurant in Raleigh NC">
+  <div
+    class="hero-bg"
+    role="img"
+    aria-label="Fresh tacos and vibrant Mexican food — Campo Taco Co. Raleigh NC">
+  </div>
+  <div class="hero-content reveal">
+    <div class="hero-badge">🌮 Now Open · Raleigh, NC</div>
+    <div class="hero-brand">Campo <span>Taco</span> Co.</div>
+    <h1>Fresh <em>Mexican</em> Food<br>&amp; Drinks in Raleigh, NC</h1>
+    <p class="hero-tagline">
+      Vibrant, casual tacos, cocktails &amp; good vibes — inspired by the land.<br>
+      Serving Raleigh at 1001 S Saunders St, right in the heart of the city.
+    </p>
+    <div class="hero-ctas">
+      <a href="https://www.campotaco.co" class="btn-primary" target="_blank" rel="noopener">
+        <i class="fas fa-utensils" aria-hidden="true"></i> Order Online
+      </a>
+      <a href="#menu" class="btn-secondary">
+        <i class="fas fa-book-open" aria-hidden="true"></i> View Menu
+      </a>
+    </div>
+    <div class="hero-info">
+      <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 1001 S Saunders St, Raleigh NC</span>
+      <span><i class="fas fa-phone" aria-hidden="true"></i> +1 (813) 521-6686</span>
+      <span><i class="fas fa-clock" aria-hidden="true"></i> Mon–Thu 11a–10p · Fri 11a–11p</span>
+    </div>
+  </div>
+  <div class="scroll-indicator" aria-hidden="true">
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about" class="about section-padding" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-image reveal from-left">
+        <img
+          src="assets/fachada.png"
+          alt="Fachada de Campo Taco Co. — Mexican restaurant at 1001 S Saunders St, Raleigh NC"
+          loading="lazy"
+          width="800"
+          height="1000"
+        />
+        <div class="about-badge">Fresh · Vibrant · Raleigh, NC</div>
+      </div>
+
+      <div class="about-text reveal from-right">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-heading" id="about-heading">
+          Inspired by the Land,<br>Made for Raleigh
+        </h2>
+        <p>
+          Campo Taco Co. was born from a deep love of vibrant Mexican flavors and a belief that great food should feel like coming home. Our kitchen draws inspiration from <em>el campo</em> — the countryside — where ingredients are fresh, flavors are bold, and every meal brings people together.
+        </p>
+        <p>
+          Located at <strong>1001 S Saunders St in Raleigh, NC</strong>, we serve handcrafted tacos, house-made salsas, and creative cocktails in a casual, welcoming atmosphere. Whether you're stopping in for a quick weekday lunch, a Friday night dinner, or a laid-back weekend meal with friends, Campo is your spot for fresh Mexican food in Raleigh.
+        </p>
+        <p>
+          From our slow-braised birria to our craft margaritas, every dish and drink at Campo Taco Co. is made with intention — no shortcuts, just real ingredients with real flavor, served in the heart of Raleigh, NC.
+        </p>
+        <div class="about-features">
+          <div class="feature"><i class="fas fa-seedling" aria-hidden="true"></i> <span>Fresh Daily Ingredients</span></div>
+          <div class="feature"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> <span>Heart of Raleigh, NC</span></div>
+          <div class="feature"><i class="fas fa-glass-cheers" aria-hidden="true"></i> <span>Craft Cocktails &amp; Drinks</span></div>
+          <div class="feature"><i class="fas fa-star" aria-hidden="true"></i> <span>Casual, Welcoming Vibes</span></div>
+        </div>
+        <a href="https://www.campotaco.co" class="btn-primary" target="_blank" rel="noopener">
+          Order Online <i class="fas fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MENU ===================== -->
+<section id="menu" class="menu-section section-padding" aria-labelledby="menu-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Our Menu</span>
+      <h2 class="section-heading" id="menu-heading">From Our Kitchen to Your Table</h2>
+      <p class="section-subtext">Fresh Mexican flavors for every time of day — tacos, cocktails &amp; more. Raleigh's best Mexican food at 1001 S Saunders St.</p>
+    </div>
+
+    <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+      <button class="tab active" data-tab="lunch" role="tab" aria-selected="true" aria-controls="tab-lunch">🌞 Lunch</button>
+      <button class="tab" data-tab="dinner" role="tab" aria-selected="false" aria-controls="tab-dinner">🌙 Dinner</button>
+      <button class="tab" data-tab="drinks" role="tab" aria-selected="false" aria-controls="tab-drinks">🍹 Drinks &amp; Desserts</button>
+    </div>
+
+    <!-- LUNCH -->
+    <div class="tab-pane active" id="tab-lunch" role="tabpanel">
+      <p class="menu-availability">🕐 Available Daily 11:00 AM – 3:00 PM</p>
+      <div class="menu-items-grid">
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Speedy Gonzalez</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Taco, enchilada and rice or beans.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Lunch #1</span><span class="menu-item-price">$9.50</span></div><p class="menu-item-desc">Chile relleno, taco, beans and guacamole salad.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Lunch #2</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Beef burrito, rice and beans.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Lunch #3</span><span class="menu-item-price">$8.50</span></div><p class="menu-item-desc">Enchilada, rice and beans.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Lunch #4</span><span class="menu-item-price">$9.50</span></div><p class="menu-item-desc">Chile relleno, taco, rice and beans.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Lunch #5</span><span class="menu-item-price">$9.50</span></div><p class="menu-item-desc">Burrito, taco and rice.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Lunch #6</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Chalupa, enchilada, rice and beans.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Lunch #7</span><span class="menu-item-price">$9.50</span></div><p class="menu-item-desc">Chalupa, chile relleno and rice.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Lunch #8</span><span class="menu-item-price">$9.75</span></div><p class="menu-item-desc">Burrito, cheese quesadilla with choice of rice or beans.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Lunch #9</span><span class="menu-item-price">$9.50</span></div><p class="menu-item-desc">Burrito, enchilada with choice of rice or beans.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Lunch #10</span><span class="menu-item-price">$9.50</span></div><p class="menu-item-desc">Enchilada, chalupa and a quesadilla.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Huevos con Chorizo</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Scrambled eggs with Mexican sausage, rice and beans.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Pollo Salad</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Strips of grilled chicken breast served on a bed of lettuce with cucumber, tomatoes, bell pepper, onion and cheese.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Burrito Fajita</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Large burrito stuffed with steak, chicken, peppers, onion, rice and beans. Topped with home made queso and sour cream, served with lettuce and tomatoes.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Burrito Roqueta</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Flour tortilla filled with grilled chicken and onion, topped with home made queso and mole poblano sauce. Served with pico de gallo and rice or beans.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Mexican Mac N' Cheese</span><span class="menu-item-price">$11</span></div><p class="menu-item-desc">Penne pasta topped with steak, chicken, shrimp, peppers and onions mixed with our signature chipotle-cheese sauce.</p><span class="menu-item-tag tag-popular">⭐ Unique</span></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Enchiladas Supreme</span><span class="menu-item-price">$9.75</span></div><p class="menu-item-desc">One chicken and one beef enchilada topped with cheese, guacamole, lettuce, tomato and sour cream. Served with rice or beans.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Enchiladas Fundidas</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Two shredded chicken enchiladas topped with our house queso, sour cream and served with rice.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Quesadilla Verde</span><span class="menu-item-price">$9.75</span></div><p class="menu-item-desc">Flour tortilla stuffed with shredded chicken and cheese, topped with house queso, lettuce, guacamole, sour cream and pico de gallo.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Pollo Tapatio</span><span class="menu-item-price">$10.50</span></div><p class="menu-item-desc">Grilled chicken breast topped with fresh-sliced mushrooms, spinach and onion smothered with home made queso. Served with rice, beans and tortillas.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Pollo Fundido</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Deep fried flour tortilla filled with shredded chicken, topped with home made queso and sour cream. Served with rice, lettuce, cheese and tomatoes.</p></div>
+      </div>
+    </div>
+
+    <!-- DINNER -->
+    <div class="tab-pane" id="tab-dinner" role="tabpanel">
+      <div class="menu-items-grid">
+
+        <div class="menu-category-title">Appetizers</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Home Made Queso</span><span class="menu-item-price">$5</span></div><p class="menu-item-desc">Our signature home made queso dip.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Guacamole</span><span class="menu-item-price">$5</span></div><p class="menu-item-desc">Fresh house-made guacamole.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Guacamole w/ Grilled Pineapple</span><span class="menu-item-price">$5.50</span></div><p class="menu-item-desc">House guacamole topped with sweet grilled pineapple.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Chori-Queso</span><span class="menu-item-price">$6</span></div><p class="menu-item-desc">Home made queso blended with chorizo.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Sweet Plantains</span><span class="menu-item-price">$5</span></div><p class="menu-item-desc">Fried sweet plantains.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Mexican Cucumber Salad</span><span class="menu-item-price">$4</span></div><p class="menu-item-desc">Cucumber marinated with lime and Tajín.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Empanadas (3)</span><span class="menu-item-price">from $10</span></div><p class="menu-item-desc">Filled with cheese and your choice: Chicken Tinga $10 · Ground Beef $11 · Beef Birria $11. Topped with mayo-chipo drizzle, served with home made queso.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Street Corn</span><span class="menu-item-price">$4</span></div><p class="menu-item-desc">Corn on the cob topped with mayonnaise, Cotija cheese and Tajín.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Wings</span><span class="menu-item-price">(6) $9 · (10) $14</span></div><p class="menu-item-desc">Bone-in or boneless. Sauces: Plain, Buffalo, BBQ, Mango Habanero or Sweet Chili. Served with carrots, celery and Ranch or Blue Cheese.</p></div>
+
+        <div class="menu-category-title">Nachos</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Classic Nachos</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Home made chips with house queso beans, sour cream, jalapeños, cilantro and choice of ground beef or shredded chicken.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Texas Nachos</span><span class="menu-item-price">$14</span></div><p class="menu-item-desc">Home made chips topped with house queso, chicken, steak and shrimp with onion and bell pepper.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+
+        <div class="menu-category-title">Soups &amp; Salad</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Sopa de Pollo</span><span class="menu-item-price">$6</span></div><p class="menu-item-desc">Home made chicken stock with chicken, avocado, cilantro, onion, crispy tortilla strips, cheese and lime.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Birria Ramen</span><span class="menu-item-price">$12.75</span></div><p class="menu-item-desc">Birria consomé filled with ramen noodles and garbanzo beans. Served with onion, cilantro, chiles de árbol, and a cheese quesadilla.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Citrus Avo Fresco</span><span class="menu-item-price">from $12</span></div><p class="menu-item-desc">Mixed greens tossed with lime, salt, avocado, tomato, cucumber, onion, red bell pepper. Choose protein: Grilled Chicken $12 · Blackened Cod $13 · Steak $14.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Taco Salad</span><span class="menu-item-price">from $9</span></div><p class="menu-item-desc">Crispy flour tortilla shell filled with choice of protein, topped with beans, lettuce, tomatoes, cheese and sour cream.</p></div>
+
+        <div class="menu-category-title">Tacos de la Calle — Street Tacos</div>
+        <p class="menu-category-note">Served on flour or corn tortilla with onions, cilantro and lime. Orders of (3) include a side of rice topped with beans. Add Guac +$1.00</p>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Birria Taco</span><span class="menu-item-price">$3.75 · 3 for $11</span></div><p class="menu-item-desc">Slow-cooked beef barbacoa, melted cheese, onion, cilantro, served with consomé.</p><span class="menu-item-tag tag-popular">⭐ Best Seller</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Mar y Tierra</span><span class="menu-item-price">$4.25 · 3 for $12.75</span></div><p class="menu-item-desc">Cheese crust topped with grilled steak, shrimp and guacamole.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Carne Asada</span><span class="menu-item-price">$3.75 · 3 for $11.25</span></div><p class="menu-item-desc">Grilled steak taco.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Campechano</span><span class="menu-item-price">$3.75 · 3 for $11.25</span></div><p class="menu-item-desc">Steak &amp; chorizo mix.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Pollo</span><span class="menu-item-price">$3.50 · 3 for $10.50</span></div><p class="menu-item-desc">Grilled chicken taco.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Adobado</span><span class="menu-item-price">$3.50 · 3 for $10.50</span></div><p class="menu-item-desc">Chicken or pork marinated with guajillo chiles.</p><span class="menu-item-tag tag-spicy">🌶 Spicy</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Barbacoa</span><span class="menu-item-price">$3.50 · 3 for $12</span></div><p class="menu-item-desc">Slow-braised beef or lamb.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Diabla</span><span class="menu-item-price">$3.75 · 3 for $11.25</span></div><p class="menu-item-desc">Steak, chorizo and our hot sauce.</p><span class="menu-item-tag tag-spicy">🌶 Spicy</span></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Lengua</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Tender beef tongue taco.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Carnitas</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Slow-cooked pork.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Pork Belly</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Choose plain or sweet &amp; spicy.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Chorizo, Nopal y Papa</span><span class="menu-item-price">$3.50 · 3 for $10.50</span></div><p class="menu-item-desc">Chorizo, cactus and potato. Remove chorizo to make vegetarian.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Vegan — Tofu Adobado</span><span class="menu-item-price">$3.50 · 3 for $10.50</span></div><p class="menu-item-desc">Adobado-style tofu taco — fully plant-based.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Shrimp &amp; Chorizo</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Grilled shrimp and chorizo.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Baja Shrimp or Fish</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Topped with creamy cabbage, cilantro, mayo-chipo and Cotija cheese.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Blackened Cod</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Topped with pico, sliced avocado, mayo-chipo and lime.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Tacos Supreme</span><span class="menu-item-price">$3.75 · 3 for $11.25</span></div><p class="menu-item-desc">Flour tortilla filled with ground beef or shredded chicken, lettuce, cheese, tomato and sour cream.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Cachetada de Ribeye</span><span class="menu-item-price">$5 · 3 for $15</span></div><p class="menu-item-desc">Cheese crust topped with beans, thinly-sliced ribeye, guacamole and grilled onion.</p><span class="menu-item-tag tag-popular">⭐ Signature</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Taco Gobernador</span><span class="menu-item-price">$4 · 3 for $12</span></div><p class="menu-item-desc">Crispy corn tortilla with grilled cheese crust, grilled shrimp, grilled poblano peppers and onion.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Chile Relleno Taco</span><span class="menu-item-price">$3.75 · 3 for $11.25</span></div><p class="menu-item-desc">Egg batter-fried chile poblano stuffed with cheese. Topped with ground beef.</p></div>
+
+        <div class="menu-category-title">Campo Bowls — Build Your Bowl</div>
+        <div class="menu-build-card">
+          <h4>Each bowl includes: rice, beans, protein, lettuce, pico de gallo, cheese, grilling onion, sour cream &amp; roasted corn</h4>
+          <h4 style="margin-top:14px">Choose Your Rice</h4>
+          <div class="menu-build-options"><span class="menu-build-opt">Classic Red Rice</span><span class="menu-build-opt">Green Cilantro-Lime</span></div>
+          <h4 style="margin-top:14px">Choose Your Protein</h4>
+          <div class="menu-build-options">
+            <span class="menu-build-opt">Shredded Chicken or Ground Beef<span>$11.50</span></span>
+            <span class="menu-build-opt">Grilled Chicken<span>$12</span></span>
+            <span class="menu-build-opt">Steak<span>$13</span></span>
+            <span class="menu-build-opt">Mixed Chicken &amp; Steak<span>$12.50</span></span>
+            <span class="menu-build-opt">Shrimp<span>$13</span></span>
+            <span class="menu-build-opt">Texas (Chicken, Steak &amp; Shrimp)<span>$14</span></span>
+            <span class="menu-build-opt">Blackened Cod<span>$13</span></span>
+            <span class="menu-build-opt">Guajillo Chicken<span>$12</span></span>
+            <span class="menu-build-opt">Guajillo Pork<span>$12</span></span>
+            <span class="menu-build-opt">Guajillo Tofu<span>$11</span></span>
+            <span class="menu-build-opt">Carnitas<span>$12</span></span>
+          </div>
+          <h4 style="margin-top:14px">Extras</h4>
+          <div class="menu-build-options">
+            <span class="menu-build-opt">Shrimp<span>+$4</span></span><span class="menu-build-opt">Chorizo<span>+$2.50</span></span><span class="menu-build-opt">Guacamole<span>+$1</span></span><span class="menu-build-opt">Avocado<span>+$0.75</span></span><span class="menu-build-opt">Broccoli<span>+$0.75</span></span><span class="menu-build-opt">Grilled Peppers<span>+$0.75</span></span><span class="menu-build-opt">Zucchini<span>+$0.75</span></span><span class="menu-build-opt">Mushrooms<span>+$0.75</span></span><span class="menu-build-opt">Tortillas<span>+$1</span></span>
+          </div>
+        </div>
+
+        <div class="menu-category-title">ACPS — Arroz con Proteína y Salsa</div>
+        <div class="menu-build-card">
+          <h4>A bed of rice topped with your choice of protein, extras and house queso</h4>
+          <h4 style="margin-top:14px">Choose Your Protein</h4>
+          <div class="menu-build-options">
+            <span class="menu-build-opt">Chicken<span>$11.50</span></span><span class="menu-build-opt">Steak<span>$13</span></span><span class="menu-build-opt">Mixed Chicken &amp; Steak<span>$12.50</span></span><span class="menu-build-opt">Texas (Chicken, Steak &amp; Shrimp)<span>$14</span></span><span class="menu-build-opt">Guajillo Chicken<span>$12</span></span><span class="menu-build-opt">Guajillo Pork<span>$12</span></span><span class="menu-build-opt">Guajillo Tofu<span>$11</span></span>
+          </div>
+          <h4 style="margin-top:14px">Extras</h4>
+          <div class="menu-build-options">
+            <span class="menu-build-opt">Shrimp<span>+$4</span></span><span class="menu-build-opt">Chorizo<span>+$2.50</span></span><span class="menu-build-opt">Broccoli<span>+$0.75</span></span><span class="menu-build-opt">Grilled Onion<span>+$0.75</span></span><span class="menu-build-opt">Zucchini<span>+$0.75</span></span><span class="menu-build-opt">Mushrooms<span>+$0.75</span></span><span class="menu-build-opt">Tortillas<span>+$1</span></span>
+          </div>
+        </div>
+
+        <div class="menu-category-title">House Specials</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Carne Asada Fries</span><span class="menu-item-price">$13.75</span></div><p class="menu-item-desc">Crispy French fries topped with steak, home made queso and cilantro.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Quesadilla de Pollo</span><span class="menu-item-price">$12 · with Steak $13.25</span></div><p class="menu-item-desc">Two flour tortillas filled with cheese and grilled chicken, served with guacamole, sour cream and pico.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Flautas (4)</span><span class="menu-item-price">from $10</span></div><p class="menu-item-desc">Corn tortillas filled with shredded chicken or beef birria, deep-fried. Topped with sour cream and Cotija. Served with guacamole salad. Shredded Chicken $10 · Beef Birria $11</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Carne Asada*</span><span class="menu-item-price">$16</span></div><p class="menu-item-desc">Grilled thinly-sliced Ribeye with rice, whole pinto beans, cheese sauce, pico, guacamole, pickled onions and tortillas.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Pollo Chipotle</span><span class="menu-item-price">$12.50</span></div><p class="menu-item-desc">Strips of grilled chicken in our home made spicy chipotle sauce. Served with rice and beans.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Enchiladas de Mole Poblano</span><span class="menu-item-price">$12.50</span></div><p class="menu-item-desc">Three chicken enchiladas topped with cheese, mole poblano, sour cream drizzle and roasted sesame seeds.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Enchiladas Chipotle</span><span class="menu-item-price">$12.50</span></div><p class="menu-item-desc">Three ground beef enchiladas with cheese, creamy chipotle sauce, sour cream and pico.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Enchilada Sampler</span><span class="menu-item-price">$13.25</span></div><p class="menu-item-desc">One chipotle beef + one mole poblano chicken + one bean with house queso. With sour cream drizzle.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Shrimp Ceviche</span><span class="menu-item-price">$13</span></div><p class="menu-item-desc">Boiled shrimp with cucumber, red onion, cilantro, tomato tossed in fresh lime juice and Mexican spices.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Camarones a la Diabla</span><span class="menu-item-price">$5.75</span></div><p class="menu-item-desc">Grilled shrimp in spicy diabla salsa, cilantro-lime rice, black beans, sliced avocado and tortillas.</p><span class="menu-item-tag tag-spicy">🌶 Spicy</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Camarones a Mojo de Ajo</span><span class="menu-item-price">$15</span></div><p class="menu-item-desc">Shrimp sautéed with mushrooms in butter, garlic and spices. With rice, beans, lettuce, pico and tortillas.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Creamy Chipotle Shrimp</span><span class="menu-item-price">$15</span></div><p class="menu-item-desc">Grilled shrimp smothered in home made creamy chipotle sauce with bacon. With rice, beans and tortillas.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+
+        <div class="menu-category-title">Fajitas</div>
+        <p class="menu-category-note">Grilled with peppers &amp; onion on a hot platter. Served with rice, beans, lettuce, sour cream, tomatoes, grated cheese and 3 tortillas.</p>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Chicken Fajitas</span><span class="menu-item-price">$15.50</span></div><p class="menu-item-desc">Grilled chicken with peppers and onion.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Steak Fajitas</span><span class="menu-item-price">$15.50</span></div><p class="menu-item-desc">Grilled steak with peppers and onion.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Mixed Fajitas</span><span class="menu-item-price">$16</span></div><p class="menu-item-desc">Chicken and steak together.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Texas Fajitas</span><span class="menu-item-price">$18</span></div><p class="menu-item-desc">Steak, shrimp and chicken combination.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Shrimp Fajitas</span><span class="menu-item-price">$16.50</span></div><p class="menu-item-desc">Grilled shrimp with peppers and onion.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Vegetarian Fajitas</span><span class="menu-item-price">$12</span></div><p class="menu-item-desc">Zucchini, mushrooms and spinach.</p></div>
+
+        <div class="menu-category-title">Sopes — $4.50 each</div>
+        <div class="menu-build-card">
+          <h4>Thick mini tortilla topped with beans, queso fresco, pico de gallo and sour cream</h4>
+          <h4 style="margin-top:14px">Choose Your Protein</h4>
+          <div class="menu-build-options"><span class="menu-build-opt">Chicken</span><span class="menu-build-opt">Steak</span><span class="menu-build-opt">Carnitas</span><span class="menu-build-opt">Chorizo</span><span class="menu-build-opt">Adobado Chicken or Pork</span><span class="menu-build-opt">Barbacoa</span><span class="menu-build-opt">A la Diabla</span><span class="menu-build-opt">Campechano</span><span class="menu-build-opt">Lengua</span></div>
+        </div>
+
+        <div class="menu-category-title">Burritos</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Burrito del Campo</span><span class="menu-item-price">See Menu</span></div><p class="menu-item-desc">Large flour tortilla stuffed with steak, rice and beans, topped with more steak, salsa verde, pico and sliced avocado.</p><span class="menu-item-tag tag-popular">⭐ Signature</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Shrimp &amp; Chorizo Burrito</span><span class="menu-item-price">See Menu</span></div><p class="menu-item-desc">Shrimp, chorizo, rice, refried beans and grilled onion. Topped with house queso, more grilled shrimp, chorizo and chipotle sauce.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Burrito Californiano</span><span class="menu-item-price">See Menu</span></div><p class="menu-item-desc">Steak, rice, pinto beans, French fries, salsa verde and salsa roja. Served with more fries on the side.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Chimichanga</span><span class="menu-item-price">See Menu</span></div><p class="menu-item-desc">Ground beef or chicken deep-fried burrito, topped with home made queso and sour cream. Served with lettuce, tomato and rice.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Burrito Perdido</span><span class="menu-item-price">See Menu</span></div><p class="menu-item-desc">Grilled chicken &amp; chorizo or steak &amp; chorizo, hidden under rice and our home made queso.</p><span class="menu-item-tag tag-new">✨ Hidden Gem</span></div>
+
+      </div>
+    </div>
+
+    <!-- DRINKS & DESSERTS -->
+    <div class="tab-pane" id="tab-drinks" role="tabpanel">
+      <div class="menu-items-grid">
+
+        <div class="menu-category-title">Margaritas &amp; Cocktails</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">House Margarita</span><span class="menu-item-price">12oz $7 · 20oz $11 · Pitcher $16</span></div><p class="menu-item-desc">Choose your flavor: Lime, Mango, Passion Fruit, Dragon Fruit, Guava, Raspberry, Blackberry, Strawberry or Watermelon.</p><span class="menu-item-tag tag-popular">⭐ Most Popular</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Skinny Margarita</span><span class="menu-item-price">12oz $8 · 20oz $13 · Pitcher $20</span></div><p class="menu-item-desc">Freshly squeezed lime juice, Altos Tequila and organic agave.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Fresh Cadillac Margarita</span><span class="menu-item-price">12oz $9 · 20oz $14.50 · Pitcher $23</span></div><p class="menu-item-desc">Freshly squeezed lime juice, Altos Tequila, orange liqueur and organic agave.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Ay Papi</span><span class="menu-item-price">12oz $9 · 20oz $14 · Pitcher $23</span></div><p class="menu-item-desc">Altos Tequila, tamarindo liqueur, muddled mango &amp; pineapple, fresh citrus and organic agave.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Don't You Know I'm Coco</span><span class="menu-item-price">12oz $9 · 20oz $14 · Pitcher $23</span></div><p class="menu-item-desc">Altos Tequila, lime juice, guava puree, crème de coco and organic agave.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">El Jefe</span><span class="menu-item-price">12oz $9 · 20oz $14 · Pitcher $23</span></div><p class="menu-item-desc">Altos Tequila, muddled mango &amp; mint, fresh citrus mix and organic agave.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Blood Orange Margarita</span><span class="menu-item-price">12oz $9 · 20oz $14 · Pitcher $23</span></div><p class="menu-item-desc">Altos Tequila, freshly squeezed lime juice, freshly squeezed blood orange and organic agave.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Passion Fruit Margarita</span><span class="menu-item-price">12oz $9 · 20oz $14 · Pitcher $23</span></div><p class="menu-item-desc">Altos Tequila, freshly squeezed lime juice, Liquor 43, passion fruit puree and organic agave.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Berry Berry Margarita</span><span class="menu-item-price">12oz $8.50 · 20oz $14 · Pitcher $22</span></div><p class="menu-item-desc">Altos Tequila, freshly squeezed lime juice, fresh muddled berries and agave.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">El Diablito</span><span class="menu-item-price">12oz $8.50 · 20oz $14 · Pitcher $22</span></div><p class="menu-item-desc">Altos Tequila, hibiscus extract, orange liqueur, lime juice and organic agave.</p><span class="menu-item-tag tag-spicy">🌶 Spicy</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Chapulin</span><span class="menu-item-price">12oz $9 · 20oz $14 · Pitcher $23</span></div><p class="menu-item-desc">Altos Tequila, Midori, lime juice and organic agave.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Mulita</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Altos Tequila, lime juice, organic agave, ginger beer. Add berries +$1 each.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">El Xaman</span><span class="menu-item-price">$15</span></div><p class="menu-item-desc">Vida Mezcal, Kahlua, Bailey's, espresso and chocolate bitters.</p><span class="menu-item-tag tag-popular">⭐ Signature</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Mezcal Paloma</span><span class="menu-item-price">$12</span></div><p class="menu-item-desc">Vida Mezcal, freshly squeezed lime juice, squirt grapefruit soda.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Cantarito</span><span class="menu-item-price">$12</span></div><p class="menu-item-desc">Altos Tequila, lime juice, grapefruit juice, orange juice, organic agave.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Mojitos</span><span class="menu-item-price">$10</span></div><p class="menu-item-desc">Rum &amp; fresh muddled fruit with organic agave nectar, lime juice &amp; club soda. Flavors: Classic Lime, Strawberry Pineapple, Wild-berry, Blackberry or Mango Strawberry.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+
+        <div class="menu-category-title">Margarita Experiences</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Margarita Flight</span><span class="menu-item-price">$12</span></div><p class="menu-item-desc">4 different margaritas — choose your flavors from all house options.</p><span class="menu-item-tag tag-popular">⭐ Fan Favorite</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Margarita Tower</span><span class="menu-item-price">$25</span></div><p class="menu-item-desc">9 × 6oz margaritas — choose any flavors from all house options. Perfect for groups!</p><span class="menu-item-tag tag-new">🎉 Party Size</span></div>
+
+        <div class="menu-category-title">Cerveza</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Draft — Modelo Especial</span><span class="menu-item-price">16oz $4.50</span></div><p class="menu-item-desc">Classic Mexican lager on draft.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Draft — Negra Modelo</span><span class="menu-item-price">16oz $4.50</span></div><p class="menu-item-desc">Imported dark beer on draft.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Draft — Michelob Ultra</span><span class="menu-item-price">16oz $4.00</span></div><p class="menu-item-desc">Light beer on draft.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Mexican &amp; Import Bottle</span><span class="menu-item-price">$4.50</span></div><p class="menu-item-desc">Corona, Modelo, Tecate, Dos Equis Lager, Corona Light, Negra Modelo, Victoria, Corona Familiar, Heineken, Heineken 0.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Domestic Bottle</span><span class="menu-item-price">$4.00</span></div><p class="menu-item-desc">Bud Light, Coors Light, Natural Light, Budweiser, Michelob Ultra, Miller Lite.</p></div>
+
+        <div class="menu-category-title">Wine &amp; Sangria</div>
+        <p class="menu-category-note">$8.00 per glass · $35.00 per bottle</p>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Pinot Grigio Nomalas</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Veneto, Italy — Light, effervescent, white peach flavors, floral, citrus tones.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Chardonnay Mazzolada</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Veneto, Italy — Elegant bouquet of green apple, medium-body, pleasant aromas and a lingering finish.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Alb Chardonnay Riesling Blend</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Recas, Romania — Rich tropical fruit flavors with balanced acidity.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Venis Sauvignon Blanc</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Veneto, Italy — Aromatic bouquet of exotic fruit and citrus; medium bodied, refreshing acidity.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Merlot Mazzolada</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Veneto, Italy — Ruby red with berries and herbs, full-bodied mouth feel.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Rosu Cabernet Sauvignon</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Recas, Romania — Red and black fruit notes, jammy boldness, hint of spice.</p></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Otarnita Pinot Noir</span><span class="menu-item-price">$8 / $35</span></div><p class="menu-item-desc">Recas, Romania — Cherry notes, soft tannins, balsamic aftertaste, elegant finish.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Red Sangria</span><span class="menu-item-price">$9</span></div><p class="menu-item-desc">Homemade red sangria with fresh fruit.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+
+        <div class="menu-category-title">Non-Alcoholic Drinks</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Fountain Drinks</span><span class="menu-item-price">$3</span></div><p class="menu-item-desc">Coke, Sprite, Dr Pepper, Lemonade, Fanta or Shirley Temple.</p></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Horchata</span><span class="menu-item-price">$3.50</span></div><p class="menu-item-desc">House-made horchata. Creamy and refreshing.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Jarritos</span><span class="menu-item-price">$3.50</span></div><p class="menu-item-desc">Authentic Mexican soda in various fruit flavors.</p></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Mexican Coke</span><span class="menu-item-price">$3.50</span></div><p class="menu-item-desc">Made with cane sugar — the real thing.</p></div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Squirt Grapefruit Soda</span><span class="menu-item-price">$3.50</span></div><p class="menu-item-desc">Refreshing grapefruit soda.</p></div>
+
+        <div class="menu-category-title">Desserts</div>
+        <div class="menu-item reveal delay-1"><div class="menu-item-header"><span class="menu-item-name">Flan Mexican Custard</span><span class="menu-item-price">$5</span></div><p class="menu-item-desc">Traditional silky Mexican flan with caramel sauce.</p><span class="menu-item-tag tag-popular">⭐ Classic</span></div>
+        <div class="menu-item reveal delay-2"><div class="menu-item-header"><span class="menu-item-name">Churros</span><span class="menu-item-price">$5</span></div><p class="menu-item-desc">Crispy cinnamon-sugar churros with warm chocolate dipping sauce.</p><span class="menu-item-tag tag-popular">⭐ Popular</span></div>
+        <div class="menu-item reveal delay-3"><div class="menu-item-header"><span class="menu-item-name">Tres Leches Cake</span><span class="menu-item-price">$6</span></div><p class="menu-item-desc">Classic cake soaked in three milks, topped with fresh cream.</p><span class="menu-item-tag tag-popular">⭐ House Favorite</span></div>
+        <div class="menu-item reveal delay-4"><div class="menu-item-header"><span class="menu-item-name">Berries Cheesecake</span><span class="menu-item-price">$6</span></div><p class="menu-item-desc">Creamy cheesecake topped with fresh berries.</p></div>
+
+      </div>
+    </div>
+
+    <p class="menu-note reveal">*Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of food borne illness. For parties larger than six, an auto gratuity will be automatically applied. Must be 21 to purchase alcoholic beverages.</p>
+    <div class="menu-cta reveal">
+      <a href="https://www.campotaco.co/menus" class="btn-outline" target="_blank" rel="noopener">
+        <i class="fas fa-file-pdf" aria-hidden="true"></i> Download Full Menu PDF
+      </a>
+      <a href="https://www.campotaco.co" class="btn-primary" target="_blank" rel="noopener">
+        <i class="fas fa-utensils" aria-hidden="true"></i> Order Online Now
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY CAMPO ===================== -->
+<section class="why-section section-padding" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Why Campo?</span>
+      <h2 class="section-heading" id="why-heading">What Makes Us Different</h2>
+      <p class="section-subtext">We do Mexican food the way it was meant to be done — fresh, bold, and with a whole lot of heart.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal delay-1">
+        <div class="why-icon" aria-hidden="true">🌿</div>
+        <h3>Fresh Every Day</h3>
+        <p>We prep everything fresh daily. No frozen shortcuts — just real ingredients delivering real Mexican flavor in Raleigh, NC.</p>
+      </div>
+      <div class="why-card reveal delay-2">
+        <div class="why-icon" aria-hidden="true">🌮</div>
+        <h3>Authentic Recipes</h3>
+        <p>Our tacos and plates are inspired by regional Mexican cuisine — birria, al pastor, asada — reimagined with local Raleigh flair.</p>
+      </div>
+      <div class="why-card reveal delay-3">
+        <div class="why-icon" aria-hidden="true">🍹</div>
+        <h3>Craft Cocktails</h3>
+        <p>Hand-crafted margaritas, mezcal cocktails, and house-made agua frescas designed to complement every bite.</p>
+      </div>
+      <div class="why-card reveal delay-4">
+        <div class="why-icon" aria-hidden="true">📍</div>
+        <h3>Right in Raleigh</h3>
+        <p>Conveniently located at 1001 S Saunders St in Raleigh, NC — steps from downtown, great parking, welcoming atmosphere.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CATERING ===================== -->
+<section id="catering" class="catering-section section-padding" aria-labelledby="catering-heading">
+  <div class="container">
+    <div class="catering-inner">
+
+      <div class="catering-content">
+        <span class="catering-badge reveal">We Cater</span>
+        <h2 id="catering-heading" class="catering-title reveal">
+          Let Us Feed Your<br><span>Next Fiesta!</span>
+        </h2>
+        <p class="catering-desc reveal">
+          From corporate lunches to birthday fiestas, quinceañeras and wedding receptions — Campo Taco Co. brings the full Mexican experience to your event. Fresh ingredients, authentic flavors, and the same quality you love in our restaurant.
+        </p>
+        <ul class="catering-features reveal">
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Full menu available for events of any size</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Customizable packages to fit your budget</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Taco bars, buffets, and family-style setups</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Margarita stations & signature cocktails available</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i> Raleigh, NC and surrounding areas</li>
+        </ul>
+        <div class="catering-cta reveal">
+          <a href="tel:+18135216686" class="btn-primary">
+            <i class="fas fa-phone" aria-hidden="true"></i> Call to Book
+          </a>
+          <a href="mailto:info@campotaco.co" class="btn-secondary">
+            <i class="fas fa-envelope" aria-hidden="true"></i> Email Us
+          </a>
+        </div>
+      </div>
+
+      <div class="catering-visual">
+        <div class="catering-card-stack reveal from-right">
+          <div class="catering-card">
+            <i class="fas fa-users" aria-hidden="true"></i>
+            <h4>Corporate Events</h4>
+            <p>Office lunches, team meetings & company parties</p>
+          </div>
+          <div class="catering-card">
+            <i class="fas fa-birthday-cake" aria-hidden="true"></i>
+            <h4>Private Parties</h4>
+            <p>Birthdays, quinceañeras & family celebrations</p>
+          </div>
+          <div class="catering-card">
+            <i class="fas fa-rings-wedding" aria-hidden="true"></i>
+            <h4>Weddings</h4>
+            <p>Receptions & rehearsal dinners with style</p>
+          </div>
+          <div class="catering-card">
+            <i class="fas fa-glass-cheers" aria-hidden="true"></i>
+            <h4>Social Events</h4>
+            <p>Festivals, block parties & community gatherings</p>
+          </div>
+          <div class="catering-card wide">
+            <i class="fas fa-pepper-hot" aria-hidden="true"></i>
+            <div>
+              <h4>Taco Bar Experience</h4>
+              <p>Interactive taco stations with all the fixings — your guests build their own perfect taco</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOURS & LOCATION ===================== -->
+<section id="hours" class="hours-section section-padding" aria-labelledby="hours-heading">
+  <div class="container">
+    <div class="hours-grid">
+
+      <div class="hours-card reveal from-left">
+        <span class="section-label">Opening Hours</span>
+        <h2 id="hours-heading">We're Open</h2>
+        <table class="hours-table" aria-label="Campo Taco Co. opening hours in Raleigh NC">
+          <tbody>
+            <tr>
+              <td>Monday – Thursday</td>
+              <td>11:00 AM – 10:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>11:00 AM – 11:00 PM</td>
+            </tr>
+            <tr class="weekend">
+              <td>Saturday</td>
+              <td>11:30 AM – 11:00 PM</td>
+            </tr>
+            <tr class="weekend">
+              <td>Sunday</td>
+              <td>11:30 AM – 9:00 PM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="location-card reveal from-right">
+        <span class="section-label">Find Us</span>
+        <h2>Visit Campo</h2>
+        <address>
+          <p>1001 S Saunders St<br>Raleigh, NC 27603</p>
+        </address>
+        <div class="contact-items">
+          <div class="contact-item">
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <a href="tel:+18135216686">+1 (813) 521-6686</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:info@campotaco.co">info@campotaco.co</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <a href="https://www.instagram.com/campotaco.co" target="_blank" rel="noopener">@campotaco.co</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+            <a href="https://www.facebook.com/profile.php?id=61575690488641" target="_blank" rel="noopener">Campo Taco Co. on Facebook</a>
+          </div>
+        </div>
+        <div class="location-ctas">
+          <a href="https://maps.google.com/?q=1001+S+Saunders+St+Raleigh+NC+27603" target="_blank" rel="noopener" class="btn-outline">
+            <i class="fas fa-directions" aria-hidden="true"></i> Get Directions
+          </a>
+          <a href="https://www.campotaco.co" class="btn-primary" target="_blank" rel="noopener">
+            <i class="fas fa-utensils" aria-hidden="true"></i> Order Online
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOCIAL ===================== -->
+<section class="social-section section-padding" aria-labelledby="social-heading">
+  <div class="container">
+    <div class="social-content reveal">
+      <div class="social-icon" aria-hidden="true"><i class="fab fa-instagram"></i></div>
+      <h2 id="social-heading">Follow Our Journey</h2>
+      <p>
+        Fresh dishes, behind-the-scenes moments, and Raleigh good times — follow us on Instagram
+        for the latest from Campo Taco Co. New plates, drinks, events and specials every week.
+      </p>
+      <a href="https://www.instagram.com/campotaco.co" target="_blank" rel="noopener" class="btn-instagram" aria-label="Follow Campo Taco Co. on Instagram">
+        <i class="fab fa-instagram" aria-hidden="true"></i> Follow @campotaco.co
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="footer-logo">Campo Taco Co.</div>
+        <p>Fresh, vibrant Mexican food &amp; drinks inspired by the land. Now open in Raleigh, NC at 1001 S Saunders St.</p>
+        <div class="social-links" aria-label="Social media links">
+          <a href="https://www.instagram.com/campotaco.co" target="_blank" rel="noopener" aria-label="Campo Taco Co. on Instagram">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61575690488641" target="_blank" rel="noopener" aria-label="Campo Taco Co. on Facebook">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul role="list">
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#catering">Catering</a></li>
+          <li><a href="#hours">Hours &amp; Location</a></li>
+          <li><a href="https://www.campotaco.co" target="_blank" rel="noopener">Order Online</a></li>
+          <li><a href="https://www.campotaco.co/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-hours">
+        <h4>Hours</h4>
+        <p>Mon–Thu: 11:00 AM – 10:00 PM</p>
+        <p>Friday: 11:00 AM – 11:00 PM</p>
+        <p>Saturday: 11:30 AM – 11:00 PM</p>
+        <p>Sunday: 11:30 AM – 9:00 PM</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>1001 S Saunders St<br>Raleigh, NC 27603</p>
+        <a href="tel:+18135216686">+1 (813) 521-6686</a>
+        <a href="mailto:info@campotaco.co">info@campotaco.co</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Campo Taco Co. · Raleigh, NC · All rights reserved</p>
+      <a href="https://www.campotaco.co/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== JAVASCRIPT ===================== -->
+<script>
+  /* Navbar scroll effect */
+  const navbar = document.getElementById('navbar');
+  const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 60);
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* Mobile hamburger menu */
+  const hamburger    = document.getElementById('hamburger');
+  const mobileMenu   = document.getElementById('mobileMenu');
+  const mobileOverlay = document.getElementById('mobileOverlay');
+
+  function toggleMenu(open) {
+    hamburger.classList.toggle('open', open);
+    mobileMenu.classList.toggle('open', open);
+    mobileOverlay.classList.toggle('open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+
+  hamburger.addEventListener('click', () => toggleMenu(!hamburger.classList.contains('open')));
+  mobileOverlay.addEventListener('click', () => toggleMenu(false));
+  hamburger.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') toggleMenu(!hamburger.classList.contains('open')); });
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+
+  /* Menu tabs */
+  const tabs  = document.querySelectorAll('.tab');
+  const panes = document.querySelectorAll('.tab-pane');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+      tabs.forEach(t  => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      panes.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      const pane = document.getElementById('tab-' + target);
+      if (pane) {
+        pane.classList.add('active');
+        pane.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+      }
+    });
+  });
+
+  /* Scroll reveal via IntersectionObserver */
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.10 });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+</script>
+
+</body>
+</html>
