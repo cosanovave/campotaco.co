@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://www.campotaco.co/</loc>
+    <lastmod>2026-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Food & Drinks -->
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-birria-tacos-margarita-raleigh.jpg</image:loc>
+      <image:title>Birria Tacos with House Margarita — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Slow-cooked beef birria tacos with rice, beans and a house margarita at Campo Taco Co., 1001 S Saunders St, Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-street-tacos-cocktails-raleigh.jpg</image:loc>
+      <image:title>Street Tacos and Cocktails — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Fresh street tacos served alongside craft cocktails at Campo Taco Co., Raleigh NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-street-tacos-plate-raleigh.jpg</image:loc>
+      <image:title>Street Tacos Plate with Rice and Beans — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Assorted street tacos served on a white plate with chips, rice and beans at Campo Taco Co. in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-texas-fajitas-raleigh.jpg</image:loc>
+      <image:title>Texas Fajitas — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Texas fajitas with grilled chicken, steak and shrimp, served with peppers, onions and flour tortillas at Campo Taco Co.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-chips-guacamole-queso-raleigh.jpg</image:loc>
+      <image:title>House Made Chips with Guacamole and Queso — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>House made tortilla chips served with fresh guacamole and home made queso dip at Campo Taco Co. in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <!-- Drinks & Bar -->
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-margarita-tower-bar-raleigh.jpg</image:loc>
+      <image:title>Margarita Tower at Campo Taco Co. Bar — Raleigh NC</image:title>
+      <image:caption>Signature margarita tower at the Campo Taco Co. bar — 9 cocktails for $25 in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-margarita-tower-tacos-raleigh.jpg</image:loc>
+      <image:title>Margarita Tower with Food — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Colorful margarita tower alongside tacos and sides at Campo Taco Co. restaurant in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-house-margaritas-raleigh.jpg</image:loc>
+      <image:title>House Margaritas — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Three colorful house margaritas — lime, strawberry and watermelon — at Campo Taco Co. in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-cantarito-cocktail-raleigh.jpg</image:loc>
+      <image:title>Cantarito Cocktail — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Handcrafted Cantarito cocktail with orange, flower garnish and Tajin rim at Campo Taco Co. in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-craft-cocktail-tajin-raleigh.jpg</image:loc>
+      <image:title>Craft Cocktail with Tajin Rim — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Artisanal craft cocktail garnished with a flower and Tajin rim at Campo Taco Co., Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <!-- Interior & Bar -->
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-restaurant-bar-dining-raleigh.jpg</image:loc>
+      <image:title>Restaurant Bar and Dining Area — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Interior bar and dining area at Campo Taco Co., 1001 S Saunders St, Raleigh, NC. Open daily for lunch and dinner.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-restaurant-interior-raleigh.jpg</image:loc>
+      <image:title>Restaurant Interior Full Bar View — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Full view of the interior bar and dining room at Campo Taco Co. Mexican restaurant in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-bar-jarritos-tequila-raleigh.jpg</image:loc>
+      <image:title>Bar with Jarritos and Tequila Selection — Campo Taco Co. Raleigh NC</image:title>
+      <image:caption>Well-stocked bar featuring Jarritos display and extensive tequila selection at Campo Taco Co. in Raleigh, NC.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <!-- Exterior -->
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-restaurant-exterior-raleigh.png</image:loc>
+      <image:title>Campo Taco Co. Restaurant Exterior — 1001 S Saunders St Raleigh NC</image:title>
+      <image:caption>Exterior facade of Campo Taco Co. at 1001 S Saunders St, Raleigh, NC 27603.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-restaurant-sign-raleigh.jpg</image:loc>
+      <image:title>Campo Taco Co. Sign — 1001 S Saunders St Raleigh NC</image:title>
+      <image:caption>Campo Taco Co. storefront sign at 1001 S Saunders St, Raleigh, NC — fresh Mexican restaurant open daily.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-restaurant-facade-raleigh.jpg</image:loc>
+      <image:title>Campo Taco Co. Facade — Raleigh NC</image:title>
+      <image:caption>Exterior facade of Campo Taco Co. Mexican restaurant in Raleigh, NC under a blue sky.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.campotaco.co/assets/campo-taco-storefront-entrance-raleigh.jpg</image:loc>
+      <image:title>Campo Taco Co. Storefront Entrance — Raleigh NC</image:title>
+      <image:caption>Main entrance of Campo Taco Co. at 1001 S Saunders St, Raleigh, NC 27603.</image:caption>
+      <image:geo_location>Raleigh, NC</image:geo_location>
+    </image:image>
+
+  </url>
+
+</urlset>

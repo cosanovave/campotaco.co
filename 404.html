@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found | Campo Taco Co.</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="assets/campo-taco-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #C2572B; --accent: #E8961E;
+      --dark: #2C1810; --cream: #FDF3E7;
+      --gradient: linear-gradient(135deg, #9E3D15 0%, #C2572B 100%);
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--dark);
+      color: white;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center; padding: 40px 5%;
+      position: relative; overflow: hidden;
+    }
+
+    /* Background decoration */
+    body::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(194,87,43,0.18) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 30%, rgba(44,95,46,0.12) 0%, transparent 55%);
+      pointer-events: none;
+    }
+
+    /* Logo */
+    .logo-wrap { margin-bottom: 32px; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .logo-spin { animation: spin 10s linear infinite; width: 90px; height: 90px; }
+
+    /* 404 number */
+    .err-number {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(7rem, 20vw, 14rem);
+      font-weight: 800; line-height: 1;
+      background: var(--gradient);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    /* Taco emoji decoration */
+    .taco-row {
+      font-size: 2rem; margin-bottom: 24px;
+      opacity: 0.6; letter-spacing: 8px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.6rem, 4vw, 2.4rem);
+      font-weight: 800; margin-bottom: 14px;
+      color: white;
+    }
+    p {
+      font-size: 1rem; color: rgba(255,255,255,0.55);
+      line-height: 1.75; max-width: 480px; margin: 0 auto 36px;
+    }
+
+    /* Buttons */
+    .btn-group { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+    .btn-home {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: var(--gradient); color: white;
+      padding: 14px 32px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 6px 24px rgba(194,87,43,0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btn-home:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(194,87,43,0.55); }
+    .btn-menu {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: rgba(255,255,255,0.08);
+      border: 2px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.85);
+      padding: 13px 30px; border-radius: 50px;
+      font-weight: 600; font-size: 0.95rem;
+      text-decoration: none;
+      transition: background 0.3s, border-color 0.3s;
+    }
+    .btn-menu:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.5); }
+
+    /* Footer note */
+    .footer-note {
+      margin-top: 52px;
+      font-size: 0.8rem; color: rgba(255,255,255,0.25);
+    }
+    .footer-note a { color: rgba(255,255,255,0.4); text-decoration: none; }
+    .footer-note a:hover { color: rgba(255,255,255,0.7); }
+  </style>
+</head>
+<body>
+
+  <div class="logo-wrap">
+    <img src="assets/campo-taco-logo.png" alt="Campo Taco Co." class="logo-spin">
+  </div>
+
+  <div class="err-number">404</div>
+
+  <div class="taco-row" aria-hidden="true">🌮 🌮 🌮</div>
+
+  <h1>This Taco Went Missing</h1>
+  <p>Looks like the page you're looking for got lost on the way to the table. Don't worry — the food and margaritas are still here.</p>
+
+  <div class="btn-group">
+    <a href="index.html" class="btn-home">
+      <i class="fas fa-home" aria-hidden="true"></i> Back to Home
+    </a>
+    <a href="index.html#menu" class="btn-menu">
+      <i class="fas fa-utensils" aria-hidden="true"></i> View Menu
+    </a>
+  </div>
+
+  <div class="footer-note">
+    <p>Campo Taco Co. · 1001 S Saunders St, Raleigh NC ·
+      <a href="tel:+18135216686">+1 (813) 521-6686</a>
+    </p>
+  </div>
+
+</body>
+</html>
